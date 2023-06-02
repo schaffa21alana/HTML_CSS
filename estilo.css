@@ -1,0 +1,91 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: aqua;
+}
+
+.container {
+    margin-top: 30px;
+    max-width: 50vw;
+    background-color: aqua;
+}
+
+h2{
+    font-family: 'Segoe UI';
+    color:black;
+}
+
+.block {
+    display: block;
+}
+
+.inline {
+    display: inline;
+}
+
+.tabela {
+    display: table;
+}
+
+.linha {
+    display: table-row;
+}
+
+.celula {
+    display: table-cell;
+}
+
+.cabecalho {
+    display: table-header-group;
+}
+
+.cabecalho .celula {
+    font-weight: bold;
+    text-align: center;
+}
+
+.none {
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    display: none;
+}
+
+/******************************/
+
+/*Estilizando formulários*/
+
+fieldset {
+    margin: 1em 0;
+    padding: 1em;
+    border: 1px solid #ccc;
+    background: #f8f8f8;
+}
+
+legend {
+    font-weight: bold;
+}
+
+label {
+    display: block;
+    cursor: pointer;
+}
+
+input {
+    width: auto;
+}
+    
+textarea {
+    width: 20em;
+    height: 10em;
+}
+
+input.radio, input.checkbox, input.submit {
+    width: auto;
+}
+
+.radio {
+    margin-right: 1em;
+}
+
